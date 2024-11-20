@@ -1,0 +1,10 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+$ma-police: "Oswald", "serif";
+// https://vuetifyjs.com/features/sass-variables/`
+@use "vuetify/settings" with (
+  $body-font-family: $ma-police
+);
